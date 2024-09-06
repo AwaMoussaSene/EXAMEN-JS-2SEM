@@ -1,60 +1,163 @@
 {
-        "client": [
-          {
-            "id":1,
-            "nom": "Ba",
-            "prenom": "Fatou",
-            "photo": null,
-            "telephone": "774567890",
-            "adresse": "Dakar",
-            "email": "fatou.@gmail.com",
-            "montantseuil": 60000 
-         },
-          {
-            "id":2,
-            "nom": "Sow",
-            "prenom": "Ibrahima",
-            "photo": null,
-            "telephone": "775678901",
-            "adresse": "Thiès",
-            "email": "ibrahima.@gmail.com",
-            "montantseuil": 70000
-          },
-          {
-            "id":3,
-            "nom": "Ba",
-            "prenom": "Badara",
-            "photo": null,
-            "telephone": "775678602",
-            "adresse": "Medina",
-            "email": "bbbadara.@gmail.com",
-            "montantseuil": null
-          }
-        ],
-        "dette": [
-          {
-            "id":1,
-            "dated": "2024-03-10",
-            "montant": 62000.00,
-            "numero": "DET123456789",
-            "idclient": 1
-          },
-          {
-            "id":2,
-            "dated": "2024-04-05",
-            "montant": 5000.00,
-            "numero": "DET456123456",
-            "idclient": 2
-          },
-          {
-            "id":3,
-            "dated": "2024-04-05",
-            "montant": 40000.00,
-            "numero": "DET4560987623",
-            "idclient": 3
-          }
-        ],
-        "article": [
+        "clients": [
+            {
+                "id": 1,
+                "nom": "Ba",
+                "prenom": "Badara",
+                "telephone": "772641040",
+                "adresse": "Ouakam",
+                "sexe": "M",
+                "fonction": "client",
+                "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzDR9UU9sQWlWTDm1JbBvjy2lCQbNM9z29Dw&usqp=CAU",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 10000,
+                    "date": "2022-01-01",
+                    "verse": 10000
+                  },
+                  {
+                    "id": 2,
+                    "montant": 15000,
+                    "date": "2023-01-01",
+                    "verse": 7000
+                  },
+                  {
+                    "id": 3,
+                    "montant": 50000,
+                    "date": "2024-01-01",
+                    "verse": 45000
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nom": "Sene",
+                "prenom": "Awa Moussa",
+                "telephone": "771234504",
+                "adresse": "Dakar",
+                "sexe": "F",
+                "fonction": "client",
+                "photo": "https://thumbs.dreamstime.com/b/portrait-noir-et-blanc-de-profil-d-une-fille-r%C3%A9fl%C3%A9chie-triste-enfant-en-bas-%C3%A2ge-avec-des-perles-138520452.jpg",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 20000,
+                    "date": "2022-05-01",
+                    "verse": 10000
+                  },
+                  {
+                    "id": 2,
+                    "montant": 30000,
+                    "date": "2023-03-15",
+                    "verse": 15000
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nom": "Diatta",
+                "prenom": "Issa",
+                "telephone": "771234567",
+                "adresse": "Thiès",
+                "sexe": "M",
+                "fonction": "client",
+                "photo": "https://media.istockphoto.com/id/491022212/fr/photo/faible-cl%C3%A9-portrait-dhomme.jpg?s=612x612&w=0&k=20&c=2DfJmwX2Vr4boc1EtOJ5eyt3KsLGEllfxpH3u63xS7U=",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 10000,
+                    "date": "2022-01-01",
+                    "verse": 5000
+                  },
+                  {
+                    "id": 2,
+                    "montant": 5000,
+                    "date": "2023-07-21",
+                    "verse": 3000
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nom": "Ba",
+                "prenom": "Amadou",
+                "telephone": "771234500",
+                "adresse": "Saint-Louis",
+                "sexe": "M",
+                "fonction": "client",
+                "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKjWAtNylpXEzQtkfpktlRQR7KETQcET6W2w",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 15000,
+                    "date": "2022-10-10",
+                    "verse": 10000
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nom": "Diop",
+                "prenom": "Madieume",
+                "telephone": "771234501",
+                "adresse": "Kaolack",
+                "sexe": "M",
+                "fonction": "client",
+                "photo": "https://img.freepik.com/photos-gratuite/portrait-belle-jeune-femme-appliquant-ombre-paupieres_23-2147878976.jpg?size=626&ext=jpg",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 25000,
+                    "date": "2023-01-01",
+                    "verse": 20000
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nom": "Diallo",
+                "prenom": "Djamilatou",
+                "telephone": "771234502",
+                "adresse": "Ziguinchor",
+                "sexe": "F",
+                "fonction": "client",
+                "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrt1fS8Fikm3cGCeo4tG2Kgdl4N8lCMiwBqzF75x_MUjS7XXe53VJMKiQo_MiP8w39qwo&usqp=CAU",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 30000,
+                    "date": "2023-04-04",
+                    "verse": 15000
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nom": "Diallo",
+                "prenom": "Mamadou Diang",
+                "telephone": "771234503",
+                "adresse": "Thiaroye",
+                "sexe": "M",
+                "fonction": "client",
+                "photo": "https://png.pngtree.com/background/20230611/original/pngtree-photo-of-a-young-man-in-black-hoodie-picture-image_3173273.jpg",
+                "dette": [
+                  {
+                    "id": 1,
+                    "montant": 12000,
+                    "date": "2022-08-08",
+                    "verse": 6000
+                  },
+                  {
+                    "id": 2,
+                    "montant": 8000,
+                    "date": "2023-09-09",
+                    "verse": 4000
+                  }
+                ]
+              }
+            ],
+        "articles": [
           {
             "id":1,
             "libelle": "Riz",
