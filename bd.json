@@ -1,0 +1,96 @@
+{
+        "client": [
+          {
+            "id":1,
+            "nom": "Ba",
+            "prenom": "Fatou",
+            "photo": null,
+            "telephone": "774567890",
+            "adresse": "Dakar",
+            "email": "fatou.@gmail.com",
+            "montantseuil": 60000 
+         },
+          {
+            "id":2,
+            "nom": "Sow",
+            "prenom": "Ibrahima",
+            "photo": null,
+            "telephone": "775678901",
+            "adresse": "Thiès",
+            "email": "ibrahima.@gmail.com",
+            "montantseuil": 70000
+          },
+          {
+            "id":3,
+            "nom": "Ba",
+            "prenom": "Badara",
+            "photo": null,
+            "telephone": "775678602",
+            "adresse": "Medina",
+            "email": "bbbadara.@gmail.com",
+            "montantseuil": null
+          }
+        ],
+        "dette": [
+          {
+            "id":1,
+            "dated": "2024-03-10",
+            "montant": 62000.00,
+            "numero": "DET123456789",
+            "idclient": 1
+          },
+          {
+            "id":2,
+            "dated": "2024-04-05",
+            "montant": 5000.00,
+            "numero": "DET456123456",
+            "idclient": 2
+          },
+          {
+            "id":3,
+            "dated": "2024-04-05",
+            "montant": 40000.00,
+            "numero": "DET4560987623",
+            "idclient": 3
+          }
+        ],
+        "article": [
+          {
+            "id":1,
+            "libelle": "Riz",
+            "prixunitaire": 20000.00,
+            "qtestock": 200,
+            "reference": "ART4562903460"
+          },
+          {
+            "id":2,
+            "libelle": "Huile",
+            "prixunitaire": 1000.00,
+            "qtestock": 310,
+            "reference": "ART7890945271"
+          }
+        ],
+        "dettearticle": [
+          {
+            "iddette": 1,
+            "idartilcle": 1,
+            "quantite": 3
+          },
+          {
+            "iddette": 1,
+            "idartilcle": 2,
+            "quantite": 2
+          },
+          {
+            "iddette": 2,
+            "idartilcle": 2,
+            "quantite": 5
+          },
+          {
+            "iddette": 3,
+            "idartilcle": 1,
+            "quantite": 2
+          }
+        ]
+      
+}
